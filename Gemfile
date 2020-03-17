@@ -9,6 +9,11 @@ gem 'rails', '~> 5.2.0'
 gem 'sqlite3', group: :development
 gem 'pg', group: :production
 
+# Add Foundation
+gem 'foundation-rails', '>=6.0' 
+# Include jQuery js
+gem 'jquery-rails'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
